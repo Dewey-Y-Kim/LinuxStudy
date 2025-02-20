@@ -24,6 +24,7 @@ for dir in */; do
         (cd "$dir" && sh "$script_file")
     fi
 done
+```
 ### 폴더내 모든 파일을 폴더명으로 변경해주는 스크립트
 ```
 #!/bin/sh
